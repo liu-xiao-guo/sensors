@@ -1,0 +1,15 @@
+{
+    "architecture": "all",
+    "description": "description of sensors",
+    "framework": "ubuntu-sdk-14.10",
+    "hooks": {
+        "Sensors": {
+            "apparmor": "Sensors.apparmor",
+            "desktop": "Sensors.desktop"
+        }
+    },
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "name": "com.ubuntu.developer.liu-xiao-guo.sensors",
+    "title": "sensors",
+    "version": "0.1"
+}
